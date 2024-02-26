@@ -1,0 +1,58 @@
+/* css screen unutuk dibawah 600px */
+/* h1 {
+  font-size: 30px;
+  color: blue;
+} */
+/* jika layar dibawah 600px tulisan jadi 15px */
+@media (max-width: 600px) {
+
+    /* h1 {
+    font-size: 15px;
+    color: yellowgreen;
+  } */
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+
+    .right-section img {
+
+        width: 100px;
+    }
+
+    .left-section img {
+        width: 100px;
+    }
+}
+
+/* jika landscape warna aqua dan ketika dibawah600 px akan yellow */
+@media (orientation: landscape) and (max-width: 800px) {
+
+    /* h1 {
+    color: aqua;
+  } */
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.left-section {
+    float: left;
+}
+
+.left-section img {
+    object-fit: cover;
+}
+
+.right-section {
+    float: right;
+}
+
+.right-section img {
+
+    object-fit: cover;
+}
